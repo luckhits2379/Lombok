@@ -6,6 +6,7 @@ package com.ng.lombok;
  */
 public class App {
 
+	@SuppressWarnings({ "static-access", "unused" })
 	public static void main(String[] args) {
 
 		Lombok lombok = new Lombok("Charan", 0);
