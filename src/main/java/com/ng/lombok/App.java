@@ -24,7 +24,8 @@ public class App {
 
 		Lombok lomboknull = new Lombok();
 
-		// Lombok lombokBuildernull = lombok.builder().Id(0).name(null).build();
+		// this will throw null pointer exception as non null is set on name
+		Lombok lombokBuildernull = lombok.builder().Id(0).name(null).build();
 
 	}
 }
